@@ -25,4 +25,4 @@ $ nixos-anywhere --flake .#bravo debian@bravo
 | hotel        | Proxmox VE server                      |
 | juliet       | NixOS server in Proxmox VE server      |
 | kilo         | NixOS desktop                          |
-| mbp          | MacBook Pro                            |
+| mbp          | MacBook Pro laptop                     |
