@@ -1,0 +1,13 @@
+.direnv
+.pre-commit-config.yaml
+
+.env
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+config.tf.json
