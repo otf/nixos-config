@@ -15,9 +15,10 @@
   ];
   homebrew.casks = [
     "docker"
+    "iterm2"
   ];
   homebrew.masApps = {
-  Xcode = 497799835;
+    Xcode = 497799835;
   };
 
   environment.systemPackages = with pkgs; [
