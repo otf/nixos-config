@@ -16,6 +16,7 @@
   homebrew.casks = [
     "docker"
     "iterm2"
+    "karabiner-elements"
   ];
   homebrew.masApps = {
     Xcode = 497799835;
