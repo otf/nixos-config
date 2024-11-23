@@ -89,8 +89,8 @@
 
     proxmox-nixos = {
       url = "github:SaumonNet/proxmox-nixos";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.unstable.follows = "nixpkgs-unstable";
+      inputs.nixpkgs-stable.follows = "nixpkgs";
+      inputs.nixpkgs-unstable.follows = "nixpkgs-unstable";
     };
 
     disko = {
