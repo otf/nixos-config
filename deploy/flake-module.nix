@@ -21,6 +21,17 @@
         sshUser = "otf";
         user = "root";
         path = inputs.deploy-rs.lib.x86_64-linux.activate.nixos self.nixosConfigurations.juliet;
+        remoteBuild = true;
+      };
+    };
+    deploy.nodes.kilo = {
+      hostname = "kilo";
+
+      profiles.system = {
+        sshUser = "otf";
+        user = "root";
+        path = inputs.deploy-rs.lib.x86_64-linux.activate.nixos self.nixosConfigurations.kilo;
+        remoteBuild = true;
       };
     };
   };
