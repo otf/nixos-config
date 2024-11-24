@@ -5,6 +5,13 @@
 }: {
   services.nix-daemon.enable = true;
   nix.settings.experimental-features = "nix-command flakes";
+  nix.settings.system-features = [
+    "nixos-test"
+    "kvm"
+    "apple-virt"
+    "benchmark"
+    "big-parallel"
+  ];
   nix.settings.sandbox = "relaxed";
   nix.linux-builder.enable = true;
   nix.settings.trusted-users = ["otf"];
